@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="display" readonly>
+        <div class="buttonContainer">
+            <button class="button font" onclick="clearDisplay()">c</button>
+            <button class="button font" onclick="oneVal()">1</button>
+            <button class="button font" onclick="twoVal()">2</button>
+            <button class="button font" onclick="plusVal()">+</button>
+            <button class="button font" onclick="threeVal()">3</button>
+            <button class="button font" onclick="fourVal()">4</button>
+            <button class="button font" onclick="subVal()">-</button>
+            <button class="button font" onclick="fiveVal()">5</button>
+            <button class="button font" onclick="sixVal()">6</button>
+            <button class="button font" onclick="multiplyVal()">*</button>
+            <button class="button font"onclick="sevenVal()">7</button>
+            <button class="button font"onclick="eightVal()">8</button>
+            <button class="button font"onclick="divideVal()">/</button>
+            <button class="button font"onclick="nineVal()">9</button>
+            <button class="button font"onclick="zeroVal()">0</button>
+            <button class="button font"onclick="moduloVal()">%</button>
+            <button class="button font"onclick="decimalVal()">.</button>
+            <button class="button font result"onclick="equalVal()">=</button>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
